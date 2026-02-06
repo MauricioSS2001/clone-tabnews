@@ -1,5 +1,5 @@
-function Home(){
-    return <h1>Pai, Mãe, amo MUITO vocês!</h1>
+function Home() {
+  return <h1>Pai, Mãe, amo MUITO vocês!</h1>;
 }
 
 // A exportação padrão é responsável por exportar a estrutura principal, que pode posteriormente conter mais itens como imagens, botões, etc..
