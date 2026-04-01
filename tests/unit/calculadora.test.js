@@ -1,4 +1,4 @@
-/*  Testes Automatizados 
+/*  Testes Automatizados
   Para criar um teste, é necssário utilizar a função test(). Também é necessário 
 a utilização de dois parâmetros, onde o primeiro é uma string que definirá o nome do teste
 e o segundo que será uma função Callback, Anônima ou Arrow.
@@ -36,7 +36,8 @@ test("Espero que 2 seja 1", () => {
 
 */
 
-const calculadora = require("../models/calculadora.js");
+/* ====== Função final ========= ARQUIVO APENAS PARA FINS DIDÁTICOS
+const calculadora = require("../../models/calculadora.js");
 
 test("somar 2 + 2 deveria retornar 4", () => {
   const resultado = calculadora.somar(2, 2);
@@ -49,6 +50,8 @@ test("somar 5 + 100 deveria retornar 105", () => {
   expect(resultado).toBe(105);
 });
 
+
+
 /*
 // Teste abaixo força erro
 
@@ -57,3 +60,6 @@ test("somar 'banana' + 100 deveria retornar 'erro'", () => {
   expect(resultado).toBe("erro");
 });
 */
+
+// Função apenas para ignorar esse teste
+test("Ignorar teste", () => {});

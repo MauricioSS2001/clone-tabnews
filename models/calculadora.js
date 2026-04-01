@@ -1,3 +1,5 @@
+/*  Arquivo apenas para fins didáticos
+
 function somar(numero1, numero2) {
   // Solução de exemplo para testes
   //if (typeof numero1 !== "number") return "erro";
@@ -8,3 +10,5 @@ function somar(numero1, numero2) {
 // Nome da Eportação = Função a ser exportada
 
 exports.somar = somar;
+
+*/
